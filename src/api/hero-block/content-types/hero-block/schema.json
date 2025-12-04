@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hero_blocks",
+  "info": {
+    "singularName": "hero-block",
+    "pluralName": "hero-blocks",
+    "displayName": "HeroBlock"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "HeroTitle": {
+      "type": "string"
+    },
+    "HeroDescription": {
+      "type": "string"
+    }
+  }
+}

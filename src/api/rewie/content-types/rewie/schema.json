@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "rewies",
+  "info": {
+    "singularName": "rewie",
+    "pluralName": "rewies",
+    "displayName": "Rewie"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "RewieName": {
+      "type": "string"
+    },
+    "RewieDate": {
+      "type": "string"
+    },
+    "RewieText": {
+      "type": "text"
+    }
+  }
+}

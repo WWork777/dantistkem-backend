@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "metadata_main_pages",
+  "info": {
+    "singularName": "metadata-main-page",
+    "pluralName": "metadata-main-pages",
+    "displayName": "MetadataMainPage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    }
+  }
+}

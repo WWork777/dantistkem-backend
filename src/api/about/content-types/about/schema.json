@@ -1,0 +1,55 @@
+{
+  "kind": "collectionType",
+  "collectionName": "abouts",
+  "info": {
+    "singularName": "about",
+    "pluralName": "abouts",
+    "displayName": "About"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "AboutImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "AboutTitle": {
+      "type": "string"
+    },
+    "AboutText": {
+      "type": "string"
+    },
+    "FirstFieldText": {
+      "type": "string"
+    },
+    "FirstFieldNumber": {
+      "type": "string"
+    },
+    "SeconFieldText": {
+      "type": "string"
+    },
+    "SecondFieldNumber": {
+      "type": "string"
+    },
+    "ThirdFieldText": {
+      "type": "string"
+    },
+    "ThirdFieldNumber": {
+      "type": "string"
+    },
+    "FourthFieldText": {
+      "type": "string"
+    },
+    "FourthFieldNumber": {
+      "type": "string"
+    }
+  }
+}
